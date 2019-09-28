@@ -1,0 +1,48 @@
+{
+  "all": [
+    {
+      "class":"ready",
+      "startUp":"RM is working."
+    },
+    {
+      "class":"spam",
+      "nospammessage":"please don't spam the command."
+    },
+    {
+      "class":"ban",
+      "noacc":"the permission is a requirement which is missing.",
+      "nomention":"the user mention is a requirement which is missing",
+      "banyourself":"inteleg ca esti trist, dar nu poti sa-ti dai ban singur.",
+      "noban":"I can't ban this user.",
+      "noban2":"I cannot ban a member that has acces to ban other members",
+      "messagewithoutreason":":white_check_mark: **{member} was banned.**",
+      "messageban":":white_check_mark: **{member} was banned.\n({reason})**",
+      "days": 1000
+    },
+        {
+      "class":"kick",
+      "noacc":"the permission is a requirement which is missing.",
+      "nomention":"the user mention is a requirement which is missing",
+      "kickyourself":"inteleg ca esti trist, dar nu poti sa-ti kick ban singur.",
+      "nokick":"I can't kick this user.",
+      "nokick2":"I cannot kick a member that has acces to kick other members",
+      "messagewithoutreason":"{member} was kicked without a reason knowed by me.",
+      "messagekick":"{member} was kicked."
+    },
+    {
+      "class":"serverinfo",
+      "nonumber":"{nonumber} is not a number!",
+      "invalidguild":"the ID is invalid!",
+      "Author":"Server info",
+      "hexColor":"#000001",
+      "senddata":"• Server Name: {name}\n• Server ID: {ID}\n• Owner: {owner} (ID: {ownerid})\n• Channels: {channelSize} ({textSize}x TextChannels, {voiceSize}x VoiceChannels and {categoryesSize}x Categories)\n• Members: {members} ({humans}x Humans and {bots}x Bots)\n• Roles: {roles} "
+    },
+    {
+      "class":"userinfo",
+      "noNick":"No Nickname set",
+      "noGame":"No game playing",
+      "hexColor":"#000001",
+      "senddata":"• Tag: {tag}\n• ID: {ID}\n• Nickname: {nick}\n• Status: {status}\n• Game: {game}\n• Joined at: {joined}"
+    }
+  ]
+}
